@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-slate-700 flex items-center h-screen justify-center">
+    
+
+    <div class="card bg-gradient-to-r from-fuchsia-500 to-cyan-500 h-[700px] w-[30%] rounded-lg ">
+
+        <div class="search p-4 m-3 flex">
+            <input type="text" class="text-4xl rounded-lg p-3 input_box" placeholder="enter city name.. "> 
+            <button class="text-2xl p-2 ml-3 button "><img src="./images/search.png"></button>
+
+        </div>
+
+        <div class="weather ml-[150px]">
+            <img src="./images/rain.png" class="weather-icon text-xl"> 
+            <h1 class="temp text-6xl ml-10 ">22°C</h1>
+            <h1 class="city  text-6xl p-2">New york</h1>
+        </div>
+
+        <div class="details flex justify-between p-4">
+            <div class="flex items-center">
+            <img src="./images/humidity.png" class="mr-2">
+            <div>
+                <p class="humidity font-bold text-xl">50%</p>
+                <p>Humidity</p>
+            </div>
+            </div>
+
+            <div class="flex items-center">
+            <img src="./images/wind.png" class="mr-2">
+            <div>
+                <p class="font-bold text-xl wind">15 km/h</p>
+                <p>Wind Speed</p>
+            </div>
+            </div>
+        </div>
+
+
+
+       
+
+
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
