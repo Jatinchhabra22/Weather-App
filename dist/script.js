@@ -37,11 +37,7 @@ async function checkWeather(city){
     else if(data.weather[0].main == "Mist"){
         weather_icon.src = "images/mist.png"
 
-    }
-
-    
-    
-    
+    }    
 }
 
 searchBtn.addEventListener("click", () => {
